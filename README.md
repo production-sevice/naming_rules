@@ -7,28 +7,14 @@
 * PA - parser
 * SC - script
 
-цвета:
-* WH - white
-* BL - black
-* RD - red
-* GR - green
-* BU - blue
-* YE - yellow
-
 типы каналов:
 * FR - free
 * VP - vip
 * SV - super vip
 
-команды:
-* YT - youtube
-* FB - facebook
-* SO - soprano
-* KZ - kz
-
 площадки:
 * PO - pocketoption
-* IQ - 
+* IQ - iq option
 * OL - olymptrade
 * BI - binomo
 * QX - quotex
@@ -79,10 +65,10 @@
 * **шаблонКода_название**
 
 шаблон для автоприемщиков:
-* **шаблонКода_актер_цветканала_площадка_команда_тип(free/vip/supervip)**
+* **шаблонКода_актер_цветканалаПлощадка_тип(free/vip/supervip)**
 
 примеры автоприемщиков:
-* joinRequest_BZ_GR_PO_YT_FR
+* joinRequest_BZPO_green
 * joinRequest_BZ_UNION (одинаковый для всех BZ)
 
 примеры других программ:
@@ -98,7 +84,7 @@
 
 | Название репозитория       | Название docker image      |
 | -------------------------- | -------------------------- |
-| joinRequest_BZ_GR_PO_YT_FR | joinRequest_BZ_GR_PO_YT_FR |
+| joinRequest_BZPO_green     | joinRequest_BZPO_green     |
 
 
 ## Название docker container:
@@ -109,7 +95,7 @@
 
 | Название docker image      | Название docker container       |
 | -------------------------- | ------------------------------- |
-| joinRequest_BZ_GR_PO_YT_FR | JR_BZ_GR_PO_YT_FR               |
-| broadcast_tbot             | BC_BZ_YE_OL_FB_VIP              |
+| joinRequest_BZPO_green     | JR_BZPO_green                   |
+| broadcast_tbot             | BC_BZOL_yellow_VIP              |
 | broadcast_tbot             | BC_UNION (для ВСЕХ)             |
 | broadcast_tbot             | BC_DT_FR_UNION (для всех DT FR) |
