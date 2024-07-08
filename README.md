@@ -98,6 +98,6 @@
 | Название docker image      | Название docker container       |
 | -------------------------- | ------------------------------- |
 | joinRequest_BZPO_green     | JR_BZPO_green                   |
-| broadcast_tbot             | BC_BZOL_yellow_VIP              |
+| broadcast_tbot             | BC_BZOL_yellow_VP               |
 | broadcast_tbot             | BC_UNION (для ВСЕХ)             |
 | broadcast_tbot             | BC_DT_FR_UNION (для всех DT FR) |
