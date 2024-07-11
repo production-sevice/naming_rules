@@ -2,10 +2,11 @@
 Будет дополняться со временем
 
 программы:
-* JR - join request
-* BC - broadcast
-* PA - parser
+* JR - join request <i>(бот, автоматически принимащий заявки на вступление)</i>
+* BC - broadcast <i>(бот для пересылки постов в каналы)</i>
+* PA - parser 
 * SC - script
+* SA - sales answer <i>(бот для выдачи сейлзам личной ссылки на регу)</i>
 
 типы каналов:
 * FR - free
