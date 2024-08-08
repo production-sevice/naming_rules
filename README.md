@@ -12,6 +12,7 @@
 * FR - free
 * VP - vip
 * SV - super vip
+* PV - pro vip
 
 площадки:
 * PO - pocketoption
